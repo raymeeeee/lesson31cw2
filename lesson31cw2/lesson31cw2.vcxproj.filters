@@ -30,6 +30,9 @@
     <ClCompile Include="Clothing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Lottery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Product.h">
@@ -42,6 +45,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Clothing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lottery.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
