@@ -7,7 +7,7 @@ namespace Products {
             public Product
         {
         protected:
-            string material; // "NA#XXXX" - natural | "NN#XXXX" - not natural; XXXX - code of material
+            string material; // "NA#0000" - natural | "NN#0000" - not natural; 0000 - code of material
         public:
 			Toy() {
 				material = "undefined";
@@ -21,11 +21,11 @@ namespace Products {
 			string getMaterial() const{ return material; };
 
 			void show()const override {
-				cout << "Name: " << name;
-				cout << "Manufacturer: " << manufacturer;
-				cout << "Material: " << material;
-				cout << "Price: " << price;
-				cout << "Age restriction: " << age;
+				cout << "Name: " << name << endl;
+				cout << "Manufacturer: " << manufacturer << endl;
+				cout << "Material: " << material << endl;
+				cout << "Price: " << price << endl;
+				cout << "Age restriction: " << age << endl;
 			};
 			float calcPrice()const override {
 				float total = price;
